@@ -112,10 +112,10 @@ jobs:
               # color: Yellow
               # price: 15000
               cat > expected_p2.txt << 'EOF'
-              offset: 1
-              name: Banana
-              color: Yellow
-              price: 15000
+               offset: 1
+               name: Banana
+               color: Yellow
+               price: 15000
               EOF
 
               # 실제 출력 정규화 (공백/개행 제거) 비교
